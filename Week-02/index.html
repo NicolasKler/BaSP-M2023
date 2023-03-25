@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="Rocket Gym Landing Page" content="width=device-width, initial-scale=1.0">
         <title>Rocket Gym Landing Page</title>
     </head>
     <body>
@@ -15,14 +12,15 @@
         <aside>
             <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\LOGO-RR 1.jpg"
             alt="RadiumRocket Logo Rocket">
-            <section>
-                <button type="button">Sing Up</button>
-                <button type="button">Log In</button>
-                <button type="button">Contact</button>
-            </section>
-            </section>
+            <div>
+                <button type="button" onclick="window.location.href='';">Sing Up</button>
+                <button type="button" onclick="window.location.href='';">>Log In</button>
+                <button type="button" onclick="window.location.href='';">>Contact</button>
+            </div>
+
+            <div>
                 <h2>Other Options</h2>
-                
+
                 <a href="#Help">How can we help you?</a>
                 <a href="#History">Our history</a>
                 <a href="#Activities">Activities</a>
@@ -34,14 +32,13 @@
                 <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\home-2-32.ico"
                 alt="Home Icon">
 
-                <a href="#top">Rosario, Argentina</a>
+                <a href="#Contact">Rosario, Argentina</a>
                 <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\whatsapp.png"
-                alt="Whatsapp Icon">
-
-                <a href=”https://web.whatsapp.com/” target="_blank"> (000)000-000 </a>
+                alt="Whatsapp Icon"><a href=”https://web.whatsapp.com/” target="_blank"> (000)000-000 </a>
+            </div>    
             </aside>    
             <main>
-                <nav class="Top">
+                <div id="Top">
                     <h2>THE MAIN READON OF HEALTH</h2>
 
                     <p>
@@ -60,29 +57,30 @@
 
                     <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\image 4.png"
                     alt="A man and a woman lifting a dumbbell">
-                </nav>
+                </div>
 
-                <nav class="Help">
+                <div id="Help">
+                    <h2>HOW CAN WE HELP YOU?</h2>
                     <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\image 5.png"
                      alt="A zoom in a man´s arm lifting a dumbbell">  
-                    <button type="button">TURN RESERVATION</button>
-                    <button type="button">MEMBERSHIP MANAGMENT</button>
-                    <button type="button">AGENT DISPLAY</button>
-                    <button type="button">CONTACT AND SUGGESTION FORM</button>
-                </nav>
+                    <button type="button" onclick="window.location.href='';">TURN RESERVATION</button>
+                    <button type="button" onclick="window.location.href='';">MEMBERSHIP MANAGMENT</button>
+                    <button type="button" onclick="window.location.href='';">AGENT DISPLAY</button>
+                    <button type="button" onclick="window.location.href='';">CONTACT AND SUGGESTION FORM</button>
+                </div>
 
-                <nav class="CONTACT">
+                <div id="Contact">
                     <h2>CONTACT</h2>
 
                     <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\mail-32.ico"
                      alt="Mail Icon">
                         <form action="">
                             <label for="fname">Name:</label>
-                            <input type="text" id="fname" name="fname">
+                            <input type="text" id="fname" name="fname" required="required">
                             <label for="sname">Surname:</label>
-                            <input type="text" id="lname" name="lname">
+                            <input type="text" id="lname" name="lname" required="required">
                             <label for="email">E-mail:</label>
-                            <input type="email" id="lname" name="lname">
+                            <input type="email" id="lname" name="lname" required="required">
 
                             <h3>Reason for contact:</h3>
 
@@ -94,13 +92,13 @@
                             value="meberships"> <label>I want to know the meberships and costs</label>
 
                             <h3>Message</h3>
-                            <input type="text" name="textbox" id="">
+                            <input type="text" name="textbox" id="" required="required">
                             <input type="submit" value="Submit">
                             <input type="reset" value="Reset">
                         </form>
-                </nav>
+                </div>
 
-                <nav class="History">
+                <div id="History">
                     <h2>OUR HISTORY</h2>
 
                     <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\image 6.png" 
@@ -112,10 +110,10 @@
                         Donec viverra, metus in elementum interdum, elit lectus bibendum nisl,
                          eu varius justo augue et sapien.
                     </p>
-                </nav>
+                </div>
 
-                <nav class="Activities">
-                    <section>
+                <div id="Activities">
+                    <div>
                     <h2>ACTIVITIES</h2>
                         <a href="">
                         <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\image 18.png"
@@ -136,9 +134,9 @@
                         <a href="">
                         <img src="C:\Users\nicok\Trabajo\Radium Rocket\BaSP-M2023\Week-02\img\image 15.png"
                         alt="boxing glove"></a>
-                    </section>
+                        </div>
 
-                    <section>
+                    <div>
                         <h2>MEMBERSHIP TYPES</h2>
 
                         <h3>Black membership</h3>
@@ -173,8 +171,8 @@
                             <li>Free access to weight room</li>
                             <li>Grid display</li>
                         </ul>
-                    </section>
-                </nav>
+                    </div>
+                </div>
 
                 <footer>
                     <p>Copyright © 2022 Radium Rocket. All rights reserved.</p>
