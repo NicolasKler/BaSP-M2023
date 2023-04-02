@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+h1{
+    position: absolute;
+    width: 485px;
+    height: 45px;
+    left: 310px;
+    top: 35px;
+}
+
+header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    background: #373867;
+    color: #AACE9B;
+    position: absolute;
+    width: 1217px;
+    height: 135px;
+    left: 295px;
+    top: 0px;
+}
+
+header a{
+    position: absolute;
+    width: 233.32px;
+    left: 50px;
+    top: 45px;
+    bottom: 45px;
+}
+
+aside{
+    position: fixed;
+    background: #AACE9B;
+    width: 295px;
+    height: 4934px;
+    color:#373867;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#Mainlogo{
+    width: 130px;
+    height: 140px;
+    margin-left: 82.5px;
+    margin-top: 20px;
+    margin-bottom: 41px;
+}
+
+.nav-bar ul li a{
+    width: 205px;
+    height: 69.97px;
+    margin-left: 45px;
+    box-sizing: border-box;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 0px;
+    column-gap: 100px;
+    background: #EBECF0;
+    border: 1px solid #373867;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 41px;
+    margin-left: 45px;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+aside h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+#Home{
+    background-color: #373867;
+    color: #EBECF0;
+    font-size: 30px;
+}
+
+aside ul li a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: #373867;
+}
+
+aside ul li{
+    margin-bottom: 10px;
+}
+
+
+#external-info img{
+    margin-right: 15px;
+}
