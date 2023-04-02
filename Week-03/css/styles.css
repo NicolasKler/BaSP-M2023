@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto';
     font-style: normal;
+    color: #373867;
 }
 
 h1{
@@ -41,6 +42,7 @@ aside{
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
+    z-index: 3;
 }
 
 #Mainlogo{
@@ -99,4 +101,122 @@ aside ul li{
 
 #external-info img{
     margin-right: 15px;
+}
+
+#Top h2{
+    position: absolute;
+    width: 500px;
+    height: 59px;
+    left: 363px;
+    top: 203px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #373867;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#Top p{
+    position: absolute;
+    width: 500px;
+    height: 287px;
+    left: 369px;
+    top: 276px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    z-index: 2;
+}
+
+#Top img{
+    margin-top: 226px;
+    margin-left: 729px;
+    width: 810px;
+    height: 684px;
+}
+
+.line-1 {
+    height: 5px;
+    background: #373867;
+    width: 1443px;
+    margin-left: 386px ;
+    margin-top: 72px;
+}
+
+#Help h2{
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 900px;
+    top: 1146px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EBECF0;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#Help img{
+    background-image: url("../img/gym2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 366px;
+    width: 1483px;
+    height: 900px;
+    background: url(image.png);
+    filter: blur(5px);
+}
+
+#Help ul li{
+    width: 600px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 0px 100px;
+    text-align: center;
+    gap: 10px;
+    background: #EBECF0;
+    border: 1px solid #373867;
+    border-radius: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#Help ul li:first-child{
+    top: 1262px;
+    left: 460.3px;
+}
+
+#Help ul li:nth-child(2){
+    top: 1262px;
+    left: 1154.6px;
+}
+
+#Help ul li:nth-child(3){
+    top: 1562px;
+    left: 460.3px;
+}
+
+#Help ul li:last-child{
+    top: 1562px;
+    left: 1154.6px;
+}
+
+#History img{
+    position: absolute;
+    width: 1094px;
+    height: 765px;
+    left: 342px;
+    top: 3071px;
 }
