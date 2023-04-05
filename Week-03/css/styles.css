@@ -1,315 +1,268 @@
+h1{
+    margin-left: 310px;
+    margin-top: -63px;
+    width: 485px;
+    height: 45px;
+}
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #373867;
 }
-
-h1{
-    position: absolute;
-    width: 485px;
-    height: 45px;
-    left: 310px;
-    top: 35px;
-}
-
 header{
+    margin-left: 295px;
+    width: 1217px;
+    height: 135px;
+    background: #373867;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    background: #373867;
     color: #AACE9B;
-    position: absolute;
-    width: 1217px;
-    height: 135px;
-    left: 295px;
-    top: 0px;
 }
-
-header a{
-    position: absolute;
+header img{
+    margin-left: 50px;
+    margin-top: 55px;
     width: 233.32px;
-    left: 50px;
-    top: 45px;
-    bottom: 45px;
 }
-
 aside{
     position: fixed;
-    background: #AACE9B;
+    margin-top: -135px;
     width: 295px;
     height: 4934px;
+    line-height: 23px;
+    background: #AACE9B;
     color:#373867;
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px;
-    z-index: 3;
 }
-
-#Mainlogo{
-    width: 130px;
-    height: 140px;
+#main-logo{
     margin-left: 82.5px;
     margin-top: 20px;
     margin-bottom: 41px;
+    width: 130px;
+    height: 140px;
 }
-
-.nav-bar ul li a{
-    width: 205px;
-    height: 69.97px;
-    margin-left: 45px;
-    display: block;
-    background: #EBECF0;
-    border: 1px solid #373867;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 45px;
-    text-decoration: none;
-    line-height: 69.97px;
-    margin-bottom: 41px;
-}
-
 aside h2{
-    font-weight: 700;
-    font-size: 30px;
     margin-left: 35px;
     margin-bottom: 15px;
-}
-
-#Home{
-    background-color: #373867;
-    color: #EBECF0;
+    font-weight: 700;
     font-size: 30px;
 }
-
 aside ul li a{
     margin-left: 35px;
     text-decoration: none;
     color: #373867;
 }
-
 aside ul li{
     margin-bottom: 18px;
 }
-
 #external-info img{
     margin-right: 15px;
 }
-
 #external-info a{
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
-
 #internal-info a{
     font-weight: 700;
 }
-
-#Top h2{
-    position: absolute;
+.nav-bar ul li a{
+    display: block;
+    margin-left: 45px;
+    margin-bottom: 41px;
+    width: 205px;
+    height: 69.97px;
+    background: #EBECF0;
+    border: 1px solid #373867;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    line-height: 69.97px;
+}
+#home{
+    background-color: #373867;
+    color: #EBECF0;
+    font-size: 30px;
+}
+#top h2{
+    margin-left: 363px;
+    margin-top: 68px;
     width: 500px;
     height: 59px;
-    left: 363px;
-    top: 203px;
     font-weight: 700;
     font-size: 30px;
-    line-height: 35px;
-    color: #373867;
     text-transform: uppercase;
-    z-index: 2;
 }
-
-#Top p{
-    position: absolute;
+#top p{
+    margin-left: 369px;
+    margin-bottom: 419px;
     width: 500px;
     height: 287px;
-    left: 369px;
-    top: 276px;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-    z-index: 2;
 }
-
-#Top img{
-    margin-top: 226px;
-    margin-left: 700px;
-    width: 810px;
-    height: 684px;
+#top img{
+    position: absolute;
+    top:226px;
+    left: 729px;
+    z-index: -1;
 }
-
 .line-1 {
-    height: 5px;
-    background: #373867;
-    width: 1025px;
     margin-left: 386px ;
     margin-top: 72px;
+    height: 5px;
+    width: 1025px;
+    background: #373867;
 }
-
-#Help h2{
+#help h2{
     position: absolute;
     width: 700px;
     height: 52px;
-    left: 650px;
+    left: 590px;
     top: 1146px;
+    z-index: 1;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
     color: #EBECF0;
     text-transform: uppercase;
-    z-index: 2;
 }
-
-#Help img{
+#help img{
     margin-top: 40px;
     margin-left: 366px;
     width: 1122px;
     height: 876px;
-    background: url(image.png);
     filter: blur(5px);
 }
-
-#Help ul li{
+#help ul li{
+    position: absolute;
     width: 350px;
     height: 100px;
-    line-height: 30px;
-    text-align: center;
     background: #EBECF0;
     border: 1px solid #373867;
     border-radius: 5px;
-    position: absolute;
+    line-height: 30px;
+    text-align: center;
 }
-
-#Help p{
+#help ul li:first-child p, #help ul li:nth-child(3) p{
+    margin: 18px 0px;
+}
+#help ul li:first-child{
+    top: 1262px;
+    left: 460.3px;
+}
+#help ul li:nth-child(2){
+    top: 1262px;
+    left: 1000px;
+}
+#help ul li:nth-child(3){
+    top: 1562px;
+    left: 460.3px;
+}
+#help ul li:last-child{
+    top: 1562px;
+    left: 1000px;
+}
+#help p{
+    padding: 15px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
-    padding: 15px;
 }
-
-#Help ul li:first-child{
-    top: 1262px;
-    left: 460.3px;
-}
-
-#Help ul li:first-child p, #Help ul li:nth-child(3) p{
-    margin: 18px 0px;
-}
-
-#Help ul li:nth-child(2){
-    top: 1262px;
-    left: 1000px;
-}
-
-#Help ul li:nth-child(3){
-    top: 1562px;
-    left: 460.3px;
-}
-
-#Help ul li:last-child{
-    top: 1562px;
-    left: 1000px;
-}
-
-#Contact h2{
-    width: 431px;
-    height: 59px;
+#contact h2{
     margin-left: 369px;
     margin-top: 50px;
+    width: 431px;
+    height: 59px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-transform: uppercase;
 }
-
-#Contact form{
+#contact form{
     margin-left: 374px;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
 }
-
 #fname, #lname, #email{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 31px;
     width: 295px;
     height: 45px;
     border: 1px solid #373867;
     border-radius: 20px;
-    margin-left: 100px;
-    margin-right: 200px;
-    display: inline-block;
-    margin-top: 31px ;
     padding: 0px 20px;
 }
-
 #lname{
     margin-left: 104px;
 }
-
 #email{
     margin-left: 165px;
     margin-right: 0px;
     margin-bottom: 50px;
 }
-
-#Contact input[type="submit"]{
+#contact input[type="submit"]{
     width: 178px;
     height: 47px;
     margin-top: 15px;
     padding: 14px 36px;
+    border-radius: 5px;
+    background-color: #AACE9B;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    background-color: #AACE9B;
-    border-radius: 5px;
+    color: #373867;
 }
-
-#Contact input[type="reset"]{
+#contact input[type="reset"]{
+    margin-left: 52px;
     padding: 14px 36px;
-    border-radius: 5px;
     background-color: #FFFFFF;
     border: 1px solid #373867;
     border-radius: 5px;
-    margin-left: 52px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #373867;
 }
-
-#Contact h3{
+#contact h3{
     margin-bottom: 32px;
 }
-
-#Contact form label{
+#message{
+    margin-top: 78px;
+}
+#contact form label{
     display:block;
     margin-bottom: 12px;
 }
-
-#Contact form label input{
+#contact form label input{
     margin-right: 30px;
 }
-
-#History h2{
+#history h2{
+    margin-top: 48px;
+    margin-left: 342px;
     width: 431px;
     height: 59px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    margin-top: 48px;
-    margin-left: 342px;
     text-transform: uppercase;
 }
-
-#History img{
-    width: 1094px;
-    height: 765px;
+#history img{
     margin-top: 19px;
     margin-left: 342px;
+    width: 1094px;
+    height: 765px;
 }
-
-#History p{
+#history p{
     position: absolute;
-    width: 804px;
-    height: 322px;
     left: 493px;
     top: 3400px;
+    width: 804px;
+    height: 322px;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -317,98 +270,82 @@ aside ul li{
     color: #FFFFFF;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5)
 }
-
-#Activities div{
+#act{
+    width: 50%;
+    float: left;
+}
+#activities div{
     display: inline-block;
     width: 50%;
 }
- #Activities h2{
+#activities h2{
+    margin-top: 48.5px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-transform: uppercase;
-    margin-top: 48.5px;
- }
-
+}
 #act h2{
     margin-left: 394px;
 }
-
 #act ul li{
+    display: inline-block;
+    margin-left: 386px;
     width: 350px;
     height: 110px;
+    padding: 20px;
+    vertical-align: middle;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 386px;
-    padding: 20px;
 }
-
 #act ul li img{
     margin-top: 20px;
     margin-right: 80px;
     vertical-align: middle;
 }
-
-#act{
-    width: 50%;
-    float: left;
-}
-
-#memb h2{
-    margin-right: 130px;
-    text-align: right;
-    margin-bottom: 22px;
-}
-
-#memb h3{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
-    margin-left: 150px;
-
-}
-
-#memb {
+#memb{
+    line-height: 23px;
     color: black;
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px;
 }
-
+#memb h2{
+    margin-bottom: 22px;
+    margin-right: 130px;
+    text-align: right;
+}
+#memb h3{
+    margin-left: 150px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
 #memb li{
     margin-left: 150px;
 }
-
 #memb ul li ul{
     margin-top: -40px;
     margin-bottom: 100px;
 }
-
 #memb ul li ul li{
     display: table;
 }
-
 #memb ul li ul li:before{
-    content: '-';
     display: table-cell;
     padding-right: 5px;
+    content: '-';
 }
-
 #memb img{
+    margin-left: 85px;
     height: 42.48px;
     width: 35.45px;
-    margin-left: 85px;
 }
-
 footer{
-    position: absolute;
+    margin-left: 295px;
+    margin-top: 120px;
     width: 1217px;
     height: 118px;
-    left: 295px;
-    top: 4892px;
     background: #373867;
     font-weight: 600;
     font-size: 20px;
@@ -416,14 +353,16 @@ footer{
     text-align: center;
     color: rgba(255, 255, 255, 0.46);
 }
-
 footer small{
-    margin-left: 58px;
-    margin-right: 20px;
+    display: inline-block;
+    margin-left:-60px;
+    margin-right:170px;
+    margin-top: 49px;
+    vertical-align: top;
 }
-
 footer img {
+    margin-right: 20px;
+    margin-top: 12px;
     width: 95px;
     height: 95px;
-    margin-right: 20px;
 }
