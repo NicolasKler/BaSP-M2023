@@ -1,0 +1,189 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+#top p {
+    margin-bottom: 30%;
+    padding: 5%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#help {
+    background-image: url("../img/gym2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#help h2 {
+    display: flex;
+    color: #EBECF0;
+    margin-top: 30%;
+    justify-content: center;
+}
+#help ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    margin-bottom: 30%;
+}
+#help ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #EBECF0;
+    width: 60vw;
+    height: 20vw;
+    max-height: 80px;
+    max-width: 400px;
+    padding: auto;
+    margin: auto;
+    border: 1px solid #373867;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+#contact .h2-image {
+    display:flex ;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+#contact .h2-image img {
+    margin-left: 6%;
+    margin-bottom: 4%;
+}
+#contact form {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0  5% 5% 5%;
+}
+#contact label {
+    display: flex;
+    align-items: center;
+    max-height: 30px;
+    width: 100%;
+    align-items: center;
+}
+#contact label input {
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-right: 15%;
+    padding: 0 20px;
+}
+#fname, #lname, #email {
+    width: 80%;
+    margin-left: 15vw;
+}
+
+#contact h3 {
+    font-weight: 800;
+}
+.forms-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.forms-buttons input {
+    padding: 2% 10%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.forms-buttons input[type=submit] {
+    background-color: #AACE9B;
+}
+#history p {
+    color: aliceblue;
+    padding: 10vw;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    background-image: url("../img/gym3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 35vw 10vw;
+}
+#activities{
+    display: flex;
+    flex-direction: column;
+}
+#act {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+#act li {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+#act img {
+    margin-right: 3rem;
+}
+#memb h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+#memb {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+#memb ul li ul {
+    display: flex;
+    flex-direction: row;
+}
+.list-memb-types {
+    display: flex;
+    flex-direction: column;
+}

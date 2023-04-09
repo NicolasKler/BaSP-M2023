@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #373867;
+}
+.social-media {
+    display: flex;
+    justify-content: row;
+}
+.social-media img {
+    width: 8vw;
+    height: 8vw;
+}
+footer small {
+    color: white;
+    font-size: 10px;
+    padding: 5vw 0;
+}
