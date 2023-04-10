@@ -11,10 +11,10 @@ header {
 h1 {
     color: #AACE9B;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 8vw;
     line-height: 35px;
 }
-#hamburguer img{
+header .hamburguer img{
     min-width: 20px;
     max-width: 50px;
 }
@@ -26,10 +26,18 @@ header #logo-text img{
         padding: 2vw;
         margin-left: 20vw;
     }
+    .header {
+        justify-content: left;
+    }
+    h1 {
+        font-size: 4vw;
+        margin-left: 3vw;
+    }
     header #logo-text img {
         display:inline;
+        width: 30vw;
     }
-    #hamburguer {
+    .hamburguer img {
         display: none;
     }
 }
