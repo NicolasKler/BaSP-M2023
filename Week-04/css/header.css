@@ -1,7 +1,7 @@
 header {
-    text-align: center;
-    background: #373867;
     padding: 10px;
+    background: #373867;
+    text-align: center;
 }
 .header {
     display: flex;
@@ -23,19 +23,19 @@ header #logo-text img{
 }
 @media (min-width: 480px) {
     header {
-        padding: 2vw;
         margin-left: 20vw;
+        padding: 2vw;
     }
     .header {
         justify-content: left;
     }
     h1 {
-        font-size: 4vw;
         margin-left: 3vw;
+        font-size: 3vw;
     }
     header #logo-text img {
         display:inline;
-        width: 30vw;
+        width: 20vw;
     }
     .hamburguer img {
         display: none;

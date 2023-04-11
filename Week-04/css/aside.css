@@ -1,11 +1,11 @@
 aside {
-    display: none;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
     position: fixed;
-    background-color: #EBECF0;
     width: 100%;
     height: 100%;
+    background-color: #EBECF0;
 }
 nav {
     display: flex;
@@ -13,19 +13,16 @@ nav {
     align-items: center;
     width: 100%;
 }
-.other-options {
-    display: none;
-}
-.side-buttons li:last-child a {
-    display: none;
+.hamburguer-aside  {
+    display: flex;
+    align-self: baseline;
 }
 .hamburguer-aside img{
     width: 3rem;
     margin-bottom: 1rem;
 }
-.hamburguer-aside  {
-    display: flex;
-    align-self: baseline;
+#main-logo img {
+    display: none;
 }
 .side-buttons {
     display: flex;
@@ -38,17 +35,17 @@ nav {
     margin: 0.5rem 0;
 }
 .side-buttons li a {
-    text-decoration: none;
-    color: #373867;
-    background: #EBECF0;
+    padding: 20px 10px;
     border: 1px solid #a4a4a5;
     border-radius: 5px;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 700;
+    background: #EBECF0;
     text-align: center;
+    text-decoration: none;
+    color: #373867;
+    text-transform: uppercase;
+    font-size: 0.732rem;
+    font-weight: 700;
     line-height: 1.5rem;
-    padding: 20px 10px;
 }
 .side-buttons li:last-child a {
     display: none;
@@ -56,21 +53,21 @@ nav {
 .external-info {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    align-self: center;
+}
+.other-options {
+    display: none;
 }
 .external-info li a{
     text-decoration: none;
     font-size: 0.8rem;
 }
 .external-info img{
-    width: 1rem;
+    width: 4vw;
     margin-right: 15px;
 }
 .external-info li {
     margin-bottom: 0.5rem;
-}
-#main-logo img {
-    display: none;
 }
 #home {
     background-color: #373867;
@@ -99,17 +96,18 @@ nav {
 }
 @media (min-width: 480px) {
     aside {
-        display: flex;
         justify-content: top;
         align-items: center;
         text-align: center;
         background: #AACE9B;
         width: 20%;
         font-weight: 600;
-        font-size: 14px;
     }
-    nav {
-        margin-bottom: 0rem;
+    .hamburguer-aside{
+        display: none;
+    }
+    #main-logo img {
+        display: inline;
     }
     #main-logo {
         display: inline;
@@ -118,32 +116,24 @@ nav {
     }
     #main-logo img {
         width: 100%;
-        height: 60%;
+        height: 85%;
         padding: 10px 0;
     }
     aside h2 {
         margin: 1rem 0;
         font-weight: 700;
-        font-size: 0.8rem;
-    }
-    .side-buttons li a {
-        padding: 0.15rem;
+        font-size: 2vw;
     }
     .other-options {
         display: inline;
     }
-    .hamburguer-aside{
-        display: none;
+    .side-buttons li a {
+        padding: 0.7rem;
     }
     .side-buttons li:last-child a {
         display: inline;
     }
-    #main-logo img {
-        display: inline;
-    }
     .side-buttons {
-        display: flex;
-        flex-direction: column;
         width: 80%;
     }
     .internal-info li {
@@ -151,29 +141,24 @@ nav {
         text-align: left;
         font-weight: 600;
         font-size: 1.3vw;
-        line-height: 1rem;
+        line-height: 2.4vh;
         padding: 1 0.5rem;
-        margin-left: 0.5rem;
     }
     .internal-info li a{
-        text-decoration: none;
         margin-right: 0.5vw;
-    }
-    .external-info a {
         text-decoration: none;
     }
     .external-info li{
         display: flex;
         font-weight: 600;
         line-height: 1.5rem;
-        width: 100%;
     }
     .external-info li a{
         text-decoration: none;
         font-size: 1.5vw;
     }
     .side-icon img{
-        width: 1rem;
+        width: 4vw;
         margin-right: .8rem;
     }
     .footer-aside {
@@ -182,4 +167,16 @@ nav {
     .external-info {
         display: inline;
     }
+@media (min-width: 1024px) {
+    .internal-info li{
+        display: flex;
+        line-height: 6vh;
+    }
+    .external-info {
+        align-items: baseline;
+    }
+    .external-info li{
+        line-height: 6vh;
+    }
+}
 }

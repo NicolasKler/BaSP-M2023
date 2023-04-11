@@ -10,8 +10,8 @@ main h2 {
     margin-bottom: 10%;
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 5vw;
+    line-height: 5vw;
 }
 .background {
     display: flex;
@@ -20,27 +20,29 @@ main h2 {
     width: 100%;
     margin-bottom: 10%;
 }
-#top p {
-    margin-bottom: 30%;
+.top-section p {
+    margin-bottom: 5vh;
     padding: 5%;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 23px;
+    font-size: 3vw;
+    line-height: 3vw;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-#help {
+.help-section {
+    width: 100%;
+    margin: 5vw 0;
     background-image: url("../img/gym2.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
-#help h2 {
+.help-section h2 {
     display: flex;
-    color: #EBECF0;
     margin-top: 30%;
     justify-content: center;
+    color: #EBECF0;
 }
-#help ul {
+.help-section ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,11 +50,10 @@ main h2 {
     height: 25rem;
     margin-bottom: 30%;
 }
-#help ul li {
+.help-section ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #EBECF0;
     width: 60vw;
     height: 20vw;
     max-height: 80px;
@@ -61,66 +62,70 @@ main h2 {
     margin: auto;
     border: 1px solid #373867;
     border-radius: 5px;
+    background: #EBECF0;
     line-height: 30px;
     text-align: center;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1rem;
     text-transform: uppercase;
 }
-#contact {
+.contact-section {
     display: flex;
     flex-direction: column;
+    margin-top: 2vh;
 }
-#contact .h2-image {
+.contact-section .h2-image {
     display:flex ;
-    height: 10%;
+    height: 10vh;
     align-items: center;
     justify-content: center;
 }
-#contact .h2-image img {
-    margin-left: 6%;
-    margin-bottom: 4%;
+.contact-section .h2-image img {
+    width: 5vw;
+    margin: 0 0 4% 6%;
 }
-#contact form {
+.contact-section form {
     display: flex;
     height: 80vh;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 0 5% 5% 5%;
+    margin: 5vh 0;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    padding: 0  5% 5% 5%;
-    margin: 35% 0;
+    font-size: 2.5vw;
+    line-height: 2vw;
 }
-#contact label {
+.contact-section label {
     display: flex;
     align-items:center;
+    min-height: 30px;
     max-height: 50px;
-    margin-bottom: 2%;
+    margin: 2vh;
 }
-#contact label input {
+.contact-section label input {
+    height: 2rem;
     margin-right: 25px;
-    height: 27px;
+
 }
-#contact .login-input label {
+.contact-section .login-input label {
     display: flex;
     justify-content: space-between;
 }
-#contact .login-input label input {
+.contact-section .login-input label input {
+    width: 40%;
+    padding: 0 20px;
     border: 1px solid #000000;
     border-radius: 20px;
-    padding: 0 20px;
-    width: 40%;
 }
-#textarea-contact{
+#textarea-contact {
     max-height: 100px;
 }
-#contact h3 {
-    margin: 5rem 0;
+.contact-section h3 {
+    margin: 2rem 0;
     font-weight: 800;
 }
 #textarea-contact {
-    margin: 8% 0;
+    margin: 4vw 0;
 }
 .forms-buttons {
     display: flex;
@@ -133,72 +138,75 @@ main h2 {
 }
 .forms-buttons input {
     padding: 2% 10%;
+    border-radius: 5px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    border-radius: 5px;
 }
 
 .forms-buttons input[type=submit] {
     background-color: #AACE9B;
 }
-#history p {
-    color: aliceblue;
+.history-section p {
     padding: 10vw;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: justify;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 35vw 10vw;
     background-image: url("../img/gym3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 35vw 10vw;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 2vw;
+    text-align: justify;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 .blur {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(8px);
 }
-#activities {
+.activities-section {
     display: flex;
     flex-direction: column;
 }
-#act ul{
+.act ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-    padding: 1rem;
 }
-#act li {
+.act li {
     display: flex;
-    margin-bottom: 1rem;
     align-items: center;
+    margin-bottom: 1rem;
 }
-#act img {
+.act img {
     margin-right: 3rem;
 }
-#memb {
+.act li:last-child {
+    margin-left: -55px;
+}
+.memb {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#memb h3 {
+.memb h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     color: #000000;
 }
-#memb ul {
+.memb ul {
     display: flex;
     flex-direction: column;
     align-items: start;
     padding: 2rem;
 }
-#memb ul li {
+.memb ul li {
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
@@ -230,13 +238,71 @@ main h2 {
     main {
         margin-left: 20vw;
     }
-    #act ul {
-        flex-direction: column;
+    .act ul {
         flex-wrap: wrap;
-        height: 12rem;
+        height: 14rem;
+    }
+    .act img {
+        width: 3rem;
+   }
+}
+@media (min-width: 1024px) {
+    .top-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-section h2 {
+        width: 100vh;
+        justify-content: start;
+        padding: 0 5%;
+        margin-bottom: 0;
+        font-size: 2vw;
+    }
+    .top-section p {
+        width: 30%;
+        order: 1;
+        font-size: 1.2vw;
+    }
+    .top-section img{
+        width: 60%;
+        margin-top: 10rem;
+        order: 2;
+    }
+    .line-1 {
+        height: 5px;
+        margin: 4vw 4vw;
+        background: #373867;
+    }
+    .help-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .help-section ul {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .help-section ul li {
+        width: 30vw;
+    }
+    .activities-section {
+        flex-direction: row;
         align-items: baseline;
     }
-    #act img {
-        width: 3rem;
+    .act {
+        width: 45%;
+    }
+    .act ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+    .act img {
+        width: 8rem;
+   }
+    .memb {
+        width: 60%;
     }
 }
