@@ -287,6 +287,9 @@ main h2 {
     .help-section ul li {
         width: 30vw;
     }
+    #textarea-contact {
+        max-height: 1000px;
+    }
     .history-section  {
         width: 80%;
         align-self: center;
@@ -311,5 +314,8 @@ main h2 {
    }
     .memb {
         width: 60%;
+    }
+    .memb h3 {
+        margin-left: 38px;
     }
 }
