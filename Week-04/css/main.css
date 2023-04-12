@@ -26,10 +26,9 @@ main h2 {
     font-weight: 600;
     font-size: 3vw;
     line-height: 3vw;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .help-section {
-    width: 100%;
     margin: 5vw 0;
     background-image: url("../img/gym2.png");
     background-repeat: no-repeat;
@@ -38,9 +37,11 @@ main h2 {
 }
 .help-section h2 {
     display: flex;
-    margin-top: 30%;
+    margin: 30% 2vw;
     justify-content: center;
     color: #EBECF0;
+    font-size: 8vw;
+    line-height: 8vw;
 }
 .help-section ul {
     display: flex;
@@ -79,6 +80,7 @@ main h2 {
     height: 10vh;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2vh;
 }
 .contact-section .h2-image img {
     width: 5vw;
@@ -86,7 +88,7 @@ main h2 {
 }
 .contact-section form {
     display: flex;
-    height: 80vh;
+    height: 100%;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 5% 5% 5%;
@@ -97,7 +99,7 @@ main h2 {
 }
 .contact-section label {
     display: flex;
-    align-items:center;
+    align-items: center;
     min-height: 30px;
     max-height: 50px;
     margin: 2vh;
@@ -150,20 +152,16 @@ main h2 {
 .history-section p {
     padding: 10vw;
     padding: 35vw 10vw;
-    background-image: url("../img/gym3.png");
+    background-image: url("../img/gym3m.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: aliceblue;
     font-weight: 600;
-    font-size: 2vw;
-    line-height: 2vw;
+    font-size: 4vw;
+    line-height: 4vw;
     text-align: justify;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-}
-.blur {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
 }
 .activities-section {
     display: flex;
@@ -278,6 +276,8 @@ main h2 {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        width: 80%;
+        align-self: center;
     }
     .help-section ul {
         flex-wrap: wrap;
@@ -286,6 +286,13 @@ main h2 {
     }
     .help-section ul li {
         width: 30vw;
+    }
+    .history-section  {
+        width: 80%;
+        align-self: center;
+    }
+    .history-section p {
+        background-image: url("../img/gym3.png");
     }
     .activities-section {
         flex-direction: row;
