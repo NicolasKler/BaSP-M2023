@@ -4,31 +4,28 @@ console.log('-------------------------EXERCISE 1 : VARIABLES AND OPERATORS------
 
 console.log('------------EXERCISE 1.a------------');
 
-var var1 = 1;
-var var2 = 2;
-var var3;
-var3 = var1 + var2;
-
-console.log(var3);
+var valor1 = 1;
+var valor2 = 2;
+var valor3;
+valor3 = valor1 + valor2;
+console.log(valor3);
 
 //b. Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
 
 console.log('------------EXERCISE 1.b------------');
 
-var var1 = 'Segundo ';
-var var2 = 'Francia';
-var var3;
-var3 = var1 + var2;
-
-console.log(var3);
+var texto1 = 'Segundo ';
+var texto2 = 'Francia';
+var texto3;
+texto3 = texto1 + texto2;
+console.log(texto3);
 
 //c.Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado de la suma en una 3er variable (utilizar length).
 
 console.log('------------EXERCISE 1.c------------');
 
-var var1 = 'Segundo ';
-var var2 = 'Francia';
-var var3;
-var3 = var1.length + var2.length;
-
-console.log(var3);
+var texto1 = 'Segundo ';
+var texto2 = 'Francia';
+var texto3;
+texto3 = texto1.length + texto2.length;
+console.log(texto3);
