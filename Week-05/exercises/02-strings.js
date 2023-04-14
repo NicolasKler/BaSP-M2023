@@ -15,18 +15,17 @@ console.log('------------EXERCISE 2.b------------');
 
 var string = 'rave subime la nota social';
 var substring;
-substring = string.substring(0,5)
+substring = string.substring(0, 5);
 console.log(substring);
 
 /*c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string 
 con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 
-
 console.log('------------EXERCISE 2.c------------');
 
 var string = 'rave subime la nota tecnica';
 var substring;
-substring = string.substring(string.length -3);
+substring = string.substring(string.length - 3);
 console.log(substring);
 
 /*d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la 
@@ -35,9 +34,9 @@ primera letra en mayúscula y las demás en minúscula. Guardar el resultado en 
 
 console.log('------------EXERCISE 2.d------------');
 
-var string = 'me quede sin ideas';
+var string = 'me quede sin ideaS';
 var substring;
-substring = string.substring(0,1).toUpperCase() + string.substring(1).toLowerCase();
+substring = string.substring(0, 1).toUpperCase() + string.substring(1).toLowerCase();
 console.log(substring);
 
 /*e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco.
@@ -58,7 +57,7 @@ console.log('------------EXERCISE 2.f------------');
 
 var string = 'programacion intachable';
 var substring;
-substring = string.substring(0,1).toUpperCase() + string.substring(1, string.indexOf(' ') + 1).toLowerCase()
-+ string.substring(string.indexOf(' ') + 1,string.indexOf(' ') + 2).toUpperCase()
-+ string.substring(string.indexOf(' ') + 2,string.length ).toLowerCase();
+substring = string.substring(0, 1).toUpperCase() + string.substring(1, string.indexOf(' ') + 1).toLowerCase()
+    + string.substring(string.indexOf(' ') + 1, string.indexOf(' ') + 2).toUpperCase()
+    + string.substring(string.indexOf(' ') + 2).toLowerCase();
 console.log(substring);
