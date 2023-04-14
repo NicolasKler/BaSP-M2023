@@ -29,21 +29,21 @@ var age = 75;
 if (age < 2) {
     alert('Bebe');
 }
-else if (age < 12) {
+else if (age < 13) {
     alert('Niño');
 }
-else if (age < 19) {
+else if (age < 20) {
     alert('Adolecente');
 }
-else if (age < 30) {
+else if (age < 31) {
     alert('Joven');
 }
-else if (age < 60) {
+else if (age < 61) {
     alert('Adulto');
 }
-else if (age < 75) {
+else if (age < 76) {
     alert('Adulto mayor');
 }
-else{
+else {
     alert('Anciano');
 }

@@ -28,21 +28,19 @@ function sumValInt(fvalue1, fvalue2) {
     if (typeof (fvalue1) == 'number' && typeof (fvalue2) == 'number') {
         return (fvalue1 + fvalue2);
     }
-    else {
-        alert('One of the parameters is not a number');
-        return (NaN);
-    };
+    alert('One of the parameters is not a number');
+    return (NaN);
 }
 value3 = sumValInt(value1, value2);
 console.log(value3);
 
-//c. Crear una función “validateInteger” que reciba un número como parámetro y devuelva verdadero si es un número entero.
+/*c. Crear una función “validateInteger” que reciba un número como parámetro y 
+devuelva verdadero si es un número entero.*/
 
 console.log('------------EXERCISE 6.c------------');
 
-var value1 = 1.2;
 function validInteger(fvalue1) {
-    return (Number.isInteger(fvalue1));
+    return (fvalue1 % 1 === 0);
 }
 console.log(validInteger(value1));
 
@@ -52,21 +50,25 @@ En caso que haya decimales mostrar un alert con el error y retornar el número c
 
 console.log('------------EXERCISE 6.d------------');
 
-var value1 = 1;
-var value2 = 2.2;
+var value1 = 1.5;
+var value2 = 2;
 var value3;
 function sumVal(fvalue1, fvalue2) {
     if (typeof (fvalue1) == 'number' && typeof (fvalue2) == 'number') {
         if (validInteger(fvalue1) && (validInteger(fvalue2))) {
             return (fvalue1 + fvalue2);
         }
-        alert('A value is not an integer');
-        return (Math.round(fvalue1 + fvalue2));
+        else if (!validInteger(fvalue1)) {
+            alert('First value is not an integer');
+            return Math.round(fvalue1);
+        }
+        else if (!validInteger(fvalue2)) {
+            alert('Second value is not an integer');
+            return Math.round(fvalue2);
+        }
     }
-    else {
-        alert('One of the parameters is not a number');
-        return (NaN);
-    };
+    alert('One of the parameters is not a number');
+    return (NaN);
 }
 value3 = sumVal(value1, value2);
 console.log(value3);
@@ -76,34 +78,35 @@ que todo siga funcionando igual que en el apartado anterior.*/
 
 console.log('------------EXERCISE 6.e------------');
 
-var value1 = 1;
-var value2 = '2';
+var value1 = 4;
+var value2 = 2.5;
 var value3;
 function sumVal2(fvalue1, fvalue2) {
-    if (validation(fvalue1, fvalue2) == 'real') {
-        alert('A value is not an integer');
-        return (Math.round(fvalue1 + fvalue2));
+    if (validation(fvalue1, fvalue2) == 'integer') {
+        return (fvalue1 + fvalue2);
     }
     else if (validation(fvalue1, fvalue2) == 'wrong type') {
         alert('One of the parameters is not a number');
         return (NaN);
     }
-    else {
-        return (fvalue1 + fvalue2);
+    else if (validation(fvalue1, fvalue2) == 'first real') {
+        alert('First value is not an integer');
+        return Math.round(fvalue1);
     }
+    alert('Second value is not an integer');
+    return Math.round(fvalue2);
 }
 function validation(fvalue1, fvalue2) {
     if (typeof (fvalue1) == 'number' && typeof (fvalue2) == 'number') {
-        if (validaInteger(fvalue1) && (validaInteger(fvalue2))) {
-            return ('intger');
+        if (validInteger(fvalue1) && (validInteger(fvalue2))) {
+            return ('integer');
         }
-        else {
-            return ('real');
+        else if (!validInteger(fvalue1)) {
+            return ('first real');
         }
+        return ('second real')
     }
-    else {
-        return ('wrong type');
-    }
+    return ('wrong type');
 }
-value3 = sumVal(value1, value2);
+value3 = sumVal2(value1, value2);
 console.log(value3);

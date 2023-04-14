@@ -17,7 +17,7 @@ console.log('------------EXERCISE 5.b------------');
 
 var words = ['Cuantas', 'copas', 'tenes', 'pais', 'envidioso?'];
 for (var i = 0; i < words.length; i++) {
-    words[i] = words[i].substring(0, 1).toUpperCase() + words[i].substring(1, words[i].length);
+    words[i] = words[i].substring(0, 1).toUpperCase() + words[i].substring(1);
     alert(words[i]);
 }
 
