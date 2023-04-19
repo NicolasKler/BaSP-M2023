@@ -5,7 +5,7 @@ console.log('-------------------------EXERCISE 5 : For-------------------------'
 
 console.log('------------EXERCISE 5.a------------');
 
-var words = ['Cuantas', 'copas', 'tenes', 'pais', 'envidioso?'];
+var words = ['I', 'have', 'three', 'world', 'cups'];
 for (var i = 0; i < words.length; i++) {
     alert(words[i]);
 }
@@ -15,7 +15,7 @@ for (var i = 0; i < words.length; i++) {
 
 console.log('------------EXERCISE 5.b------------');
 
-var words = ['Cuantas', 'copas', 'tenes', 'pais', 'envidioso?'];
+var words = ['I', 'have', 'three', 'world', 'cups'];;
 for (var i = 0; i < words.length; i++) {
     words[i] = words[i].substring(0, 1).toUpperCase() + words[i].substring(1);
     alert(words[i]);
@@ -27,10 +27,9 @@ Al final mostrar una única alerta con la cadena completa.*/
 
 console.log('------------EXERCISE 5.c------------');
 
-var sentence = [];
-var words = ['Cuantas', 'copas', 'tenes', 'pais', 'envidioso?'];
+var sentence = "", words = ['I', 'have', 'three', 'world', 'cups'];
 for (var i = 0; i < words.length; i++) {
-    sentence[i] = words[i];
+    sentence += words[i];
 }
 alert(sentence);
 

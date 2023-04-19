@@ -1,5 +1,5 @@
 header {
-    padding: 10px;
+    padding: 5px 10px;
     background: #373867;
     text-align: center;
 }
@@ -14,17 +14,17 @@ h1 {
     font-size: 8vw;
     line-height: 35px;
 }
-header .hamburguer img{
+header .hamburguer img {
     min-width: 20px;
     max-width: 50px;
 }
-header #logo-text img{
+header #logo-text img {
     display: none;
 }
 @media (min-width: 480px) {
     header {
         margin-left: 20vw;
-        padding: 2vw;
+        padding: 3vw;
     }
     .header {
         justify-content: left;
@@ -34,7 +34,7 @@ header #logo-text img{
         font-size: 3vw;
     }
     header #logo-text img {
-        display:inline;
+        display: inline;
         width: 20vw;
     }
     .hamburguer img {

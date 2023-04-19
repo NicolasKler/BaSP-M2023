@@ -11,14 +11,18 @@ The third-week task was to add CSS (without flexbox) to the HTML from the week p
 The CSS needed to replicate the styles in the [Figma](https://www.figma.com/file/JOzMQRmG7afMoeyk5FQtPy/BaSP-m2023-Megarocket-rave?node-id=701-367&t=UC4KnK1OJbE01i3y-0) for week one.
 
 The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-03/index.html).
-## Week 3
+## Week 4
 For this fourth week, the task given was to, once again, add the styles from [Figma](https://www.figma.com/file/JOzMQRmG7afMoeyk5FQtPy/BaSP-m2023-Megarocket-rave?node-id=701-367&t=UC4KnK1OJbE01i3y-0)´s landing page to the html from week 2 (with the corrections given by my tutor), but this time the assignment was to also make it responsive with the use of flexbox and without the employment of grid.
 The responsiveness must work for mobile, tablet (minimum 480 px), and desktop (minimum 1024 px) viewports.
 
 The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-04/index.html).
 
 >**_NOTE:_**For the aside in mobile to work, you have to change the display from none to flex.
+## Week 5
+In the fifth week we were asked to use JavaScript to solve some problems (they are in each of the .js archives in the exercise folder) divided in 5 sections (variable and operators, strings, arrays, if else, for and functions). I was allowed to used any tool i needed as long as it is in ES 5.
+And I needed to fix all the problems in the css form the previous week.
 
+The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-05/index.html).
 ## Contributing
 The only one with who can edit this file is Nicolás Kler.
 

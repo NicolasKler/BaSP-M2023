@@ -10,7 +10,7 @@ var randnum = Math.random(2);
 if (randnum < 0.5) {
     alert('Lower than 0,5');
 }
-else{
+else {
     alert('Greater than or equal to 0,5');
 }
 
@@ -25,7 +25,7 @@ else{
 
 console.log('------------EXERCISE 4.b------------');
 
-var age = 75;
+var age = 60;
 if (age < 2) {
     alert('Bebe');
 }

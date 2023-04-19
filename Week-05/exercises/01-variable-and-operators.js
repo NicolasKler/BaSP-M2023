@@ -5,20 +5,16 @@ el valor de la suma de ambos números en una 3er variable.*/
 
 console.log('------------EXERCISE 1.a------------');
 
-var value1 = 1;
-var value2 = 2;
-var value3;
-value3 = value1 + value2;
+var value1 = 1, value2 = 2;
+var value3 = value1 + value2;
 console.log(value3);
 
 //b. Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
 
 console.log('------------EXERCISE 1.b------------');
 
-var text1 = 'Segundo ';
-var text2 = 'Francia';
-var text3;
-text3 = text1 + text2;
+var text1 = 'France ', text2 = 'Second';
+var text3 = text1 + text2;
 console.log(text3);
 
 /*c. Crear dos variables de tipo String y sumar el largo de cada variable 
@@ -26,8 +22,6 @@ console.log(text3);
 
 console.log('------------EXERCISE 1.c------------');
 
-var text1 = 'Segundo ';
-var text2 = 'Francia';
-var text3;
-text3 = text1.length + text2.length;
+var text1 = 'France ', text2 = 'Second';
+var text3 = text1.length + text2.length;
 console.log(text3);
