@@ -20,9 +20,15 @@ The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/We
 >**_NOTE:_**For the aside in mobile to work, you have to change the display from none to flex.
 ## Week 5
 In the fifth week we were asked to use JavaScript to solve some problems (they are in each of the .js archives in the exercise folder) divided in 5 sections (variable and operators, strings, arrays, if else, for and functions). I was allowed to used any tool i needed as long as it is in ES 5.
-And I needed to fix all the problems in the css form the previous week.
+I also needed to fix all the problems in the css form the previous week.
 
 The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-05/index.html).
+
+## Week 6
+For this week the task was to make the html/css files of the login/signup pages made in the [Figma from week 1](https://www.figma.com/file/JOzMQRmG7afMoeyk5FQtPy/BaSP-m2023-Megarocket-rave?node-id=701-367&t=UC4KnK1OJbE01i3y-0), but this time i have to add validations to all the inputs in those pages, to do this i have to use two .js files. As complementary instructions we couldnt use ecma script 6 elements or regex. i was also encouraged to utilize the tools learned in week 4. Furthermore, i needed to change the html index file to make it posible to access to the two new pages and to go back.
+
+The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-06/index.html).
+
 ## Contributing
 The only one with who can edit this file is Nicolás Kler.
 
