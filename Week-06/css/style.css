@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #373867;
+}
+h2, h1{
+    text-transform: uppercase;
+}
+@media (min-width: 480px) {
+    body {
+        display: flex;
+    }
+    .right-side {
+        width: 100%;
+    }
+}

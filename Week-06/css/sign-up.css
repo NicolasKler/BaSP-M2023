@@ -1,0 +1,152 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../../assets/img/green-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.back-arrow  {
+    align-self: baseline;
+}
+.back-arrow img {
+    width: 50px;
+    margin: 20px;
+}
+#su-back-inside {
+    display: none;
+}
+.signup-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    border: 2px solid #AACE9B;
+    padding: 10%;
+    background-color: azure;
+}
+.signup-box img {
+    width: 50vw;
+    max-width: 200px;
+}
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5%;
+}
+.signup-field input {
+    width: 40vw;
+    height: 4vh;
+    max-height: 60px;
+    margin: 20px 0;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+.invalid {
+    border-color: red;
+}
+.error {
+    height: 2vh;
+    margin: -10px 0 0 0px;
+    font-weight: 700;
+    font-size: clamp(10px, 0.5vw, 20px);
+    line-height: 15px;
+    color: #ff0000;
+}
+.signup-field {
+    font-weight: 700;
+    font-size: clamp(14px, 4vw, 20px);
+    line-height: 15px;
+}
+.signup-field label {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+.signup-field label img {
+    width: 1rem;
+    margin-left: 10px;
+}
+.up-button label {
+    display: flex;
+    align-items: center;
+    margin: 10% 0 5% 0;
+    font-size: clamp(14px, 1vw, 20px);
+    font-weight: 500;
+}
+.signup-box input[type=submit] {
+    padding: 2% 10%;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #AACE9B;
+    font-weight: 500;
+    font-size: clamp(14px, 4vw, 20px);
+    line-height: 19px;
+    color: #373867;
+}
+@media (min-width: 480px) {
+    body {
+        display: inline;
+    }
+    main {
+        margin-left: 0;
+    }
+    header {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1024px) {
+    main {
+        flex-direction: row-reverse;
+        align-items: top;
+    }
+    .rr-side-logo {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        padding: 0 0 100vh 0;
+        align-self: baseline;
+        background-image: url("../../assets/img/gym4.png");
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .rr-side-logo img {
+        width: 80%;
+    }
+    .signup-box {
+        align-self: top;
+        overflow: scroll;
+        width: 50%;
+        height: 100vh;
+        margin: 0 0 20px 0;
+        padding: 0;
+        border: none;
+    }
+    .signup-field {
+        display: flex;
+    }
+    .signup-field input {
+        width: 19vw;
+    }
+    .left-input {
+        margin-right: 20px;
+    }
+    #su-back {
+        display: none;
+    }
+    #su-back-inside {
+        display: inline;
+    }
+    #su-back-inside img {
+        width: 4rem;
+        margin: 20px;
+    }
+    .signup-box input[type=submit] {
+        width: 60%;
+        align-self: center;
+    }
+}

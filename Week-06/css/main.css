@@ -1,0 +1,355 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main h2 {
+    margin: 5%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 6vw;
+    line-height: 8vw;
+}
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.top-section p {
+    padding: 5%;
+    font-weight: 600;
+    font-size: clamp(14px, 3vw, 20px);
+    line-height: 5vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+     0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.help-section {
+    margin: 50px 0;
+    background-image: url("../../assets/img/gym2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.help-section h2 {
+    text-align: center;
+    margin: 80px 4vw 10% 4vw;
+    padding: 0px 10px;
+    color: #EBECF0;
+    font-size: clamp(20px, 7vw, 150px);
+    line-height: 8vw;
+}
+.help-section ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    margin-bottom: 30%;
+}
+.help-section ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    height: 20vw;
+    max-height: 80px;
+    max-width: 400px;
+    padding: auto;
+    margin: auto;
+    border: 1px solid #373867;
+    border-radius: 5px;
+    background: #EBECF0;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+.contact-section .h2-image {
+    display:flex ;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-section .h2-image img {
+    width: 5vw;
+}
+.contact-section form {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 5% 5% 5%;
+    margin: 50px 0;
+    font-weight: 700;
+    font-size: clamp(14px, 4vw, 20px);
+    line-height: 15px;
+}
+.contact-section label {
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    max-height: 50px;
+    margin: 10px;
+}
+.contact-section label input {
+    height: 2rem;
+    margin-right: 25px;
+}
+.contact-section .login-input label {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section .login-input label input {
+    width: 40%;
+    padding: 0 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+#textarea-contact {
+    max-height: 100px;
+}
+.contact-section h3 {
+    margin: 2rem 0;
+    font-weight: 800;
+}
+#textarea-contact {
+    margin: 4vw 0;
+}
+.forms-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.forms-buttons input {
+    padding: 2% 10%;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.forms-buttons input[type=submit] {
+    background-color: #AACE9B;
+}
+.history-section p {
+    padding: 10vw;
+    padding: 20vw 10vw;
+    background-image: url("../../assets/img/gym3m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: clamp(14px, 6vw, 20px);
+    line-height: 30px;
+    text-align: justify;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+.activities-section {
+    display: flex;
+    flex-direction: column;
+}
+.act {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.act ul {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+.act li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.act img {
+    margin-right: 1rem;
+    width: 18%;
+}
+.act li:last-child img{
+    margin-right: 25px;
+}
+.memb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.memb h3 {
+    padding: 0 1rem;
+    font-weight: 700;
+    font-size: clamp(18px, 2vw, 25px);
+    line-height: 23px;
+    color: #000000;
+}
+.memb ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+}
+.memb ul li {
+    font-weight: 600;
+    font-size: clamp(14px, 1vw, 20px);
+    line-height: 16px;
+    color: #000000;
+}
+.memb ul img {
+    margin-bottom: 50px;
+}
+.list-memb-types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.list-memb {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vw;
+}
+.list-memb ul li {
+    display: table;
+}
+.list-memb ul li:before {
+    display: table-cell;
+    padding-right: 5px;
+    content: '-';
+}
+@media (min-width: 480px) {
+    main {
+        margin-left: 20vw;
+    }
+    .top-section h2 {
+        margin-top: 80px;
+        font-size: 35px;
+    }
+    .top-section p {
+        text-shadow: none;
+        line-height: 3vw;
+    }
+    .help-section h2 {
+        font-size: clamp(20px, 4vw, 150px);
+    }
+    .contact-section label {
+        line-height: 20px;
+    }
+    .act {
+        display: inline;
+    }
+    .act ul {
+        flex-wrap: wrap;
+        align-items: center;
+        height: 14rem;
+    }
+    .act img {
+        width: 3rem;
+   }
+   .act li:last-child {
+    margin-left: -55px;
+}
+}
+@media (min-width: 1024px) {
+    .top-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top-section h2 {
+        width: 100vh;
+        margin-top: 30px;
+        padding: 0 5%;
+        margin-bottom: 0;
+        text-align: start;
+        font-size: clamp(20px, 2vw, 600px);
+    }
+    .top-section p {
+        width: 30%;
+        order: 1;
+        font-size: clamp(14px, 1.2vw, 20px);
+        line-height: 1rem;
+        padding-top: 15px;
+    }
+    .top-section img{
+        width: 60%;
+        margin-top: 3rem;
+        order: 2;
+    }
+    .line-1 {
+        height: 5px;
+        margin: 4vw 4vw;
+        background: #373867;
+    }
+    .help-section {
+        margin: 0 5%;
+        align-self: center;
+    }
+    .help-section h2 {
+        font-size: clamp(20px, 3vw, 150px);
+    }
+    .help-section ul {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .help-section ul li {
+        width: 30vw;
+    }
+    .contact-section .h2-image {
+        justify-content: left;
+    }
+    .contact-section h2 {
+        font-size: clamp(20px, 3vw, 50px);
+    }
+    #textarea-contact {
+        max-height: 1000px;
+    }
+    .history-section {
+        margin: 0 5%;
+        align-self: center;
+    }
+    .history-section p {
+        background-image: url("../../assets/img/gym3.png");
+        line-height: 20px;
+    }
+    .activities-section {
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .act {
+        width: 45%;
+    }
+    .act ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+    .act li {
+        margin-bottom: 5rem;
+    }
+    .act img {
+        width: 5rem;
+   }
+    .memb {
+        width: 60%;
+    }
+    .memb h3 {
+        margin-left: 38px;
+        padding: 0;
+    }
+}
