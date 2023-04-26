@@ -98,6 +98,17 @@ main {
         margin-left: 0;
     }
 }
+#login {
+    align-self: center;
+    margin-top: 20px;
+    padding: 2% 2%;
+    border-radius: 5px;
+    padding: 15px;
+}
+#login a {
+    text-decoration: none;
+    color: #373867;
+}
 @media (min-width: 1024px) {
     main {
         flex-direction: row-reverse;
