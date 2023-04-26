@@ -27,7 +27,7 @@ The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/We
 ## Week 6
 For this week the task was to make the html/css files of the login/signup pages made in the [Figma from week 1](https://www.figma.com/file/JOzMQRmG7afMoeyk5FQtPy/BaSP-m2023-Megarocket-rave?node-id=701-367&t=UC4KnK1OJbE01i3y-0), but this time i have to add validations to all the inputs in those pages, to do this i have to use two .js files. As complementary instructions we couldnt use ecma script 6 elements or regex. i was also encouraged to utilize the tools learned in week 4. Furthermore, i needed to change the html index file to make it posible to access to the two new pages and to go back.
 
-The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-06/index.html).
+The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-06/views/index.html).
 
 ## Contributing
 The only one with who can edit this file is Nicolás Kler.
