@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #373867;
+}
+.social-media {
+    display: flex;
+}
+.social-media img {
+    width: 8vw;
+    max-width: 60px;
+    height: 8vw;
+    max-height: 60px;
+}
+footer small {
+    color: white;
+    font-size: clamp(10px, 2vw, 30px);
+    padding: 2vw 0 2vw 2vw;
+}

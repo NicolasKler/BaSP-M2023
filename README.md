@@ -1,4 +1,4 @@
-# Readme BASP-M2023
+# BASP-M2023
 BASP-M2023 will be the reposritory where Nicolás Kler will be uploading all the soultions of the weekly problems in the 2023 Radium Rocket Bootcamp.
 ## Week 1
 The first week we were asked to make a [screenflow](https://www.figma.com/file/JOzMQRmG7afMoeyk5FQtPy/BaSP-m2023-Megarocket-rave?node-id=701-367&t=UC4KnK1OJbE01i3y-0) of an imaginary gym called "Rocket GYM", I was assigned, along with my partner Gonzalo Reybet, to prototype the sign-in and sign-up windows. This was not an isolated task, since we had to interact with our other colleague to make it work properly. We were able to do it with great success, according to our tutors.
@@ -28,6 +28,12 @@ The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/We
 For this week the task was to make the html/css files of the login/signup pages made in the [Figma from week 1](https://www.figma.com/file/JOzMQRmG7afMoeyk5FQtPy/BaSP-m2023-Megarocket-rave?node-id=701-367&t=UC4KnK1OJbE01i3y-0), but this time i have to add validations to all the inputs in those pages, to do this i have to use two .js files. As complementary instructions we couldnt use ecma script 6 elements or regex. i was also encouraged to utilize the tools learned in week 4. Furthermore, i needed to change the html index file to make it posible to access to the two new pages and to go back.
 
 The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-06/views/index.html).
+
+## Week 6
+In week seven the assigment was to continue to develop the previous week work. To do this in each both login and signup forms i had to do a HTTP request using a fetch method form Javascript, sending the data in the forms. This request must only be done if it fullfill every validation. In each case i needed to use the response from this fetch to show alerts, informing the user of state of his request.
+the URL for the request are [Login](https://api-rest-server.vercel.app/login) and [Signup](https://api-rest-server.vercel.app/signup)
+
+The solution is found on this [page](https://nicolaskler.github.io/BaSP-M2023/Week-07/views/index.html).
 
 ## Contributing
 The only one with who can edit this file is Nicolás Kler.
